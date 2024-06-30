@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Recipe Finder</h1>
+    <div id="ingredient-list">
+        <h2>Select Ingredients:</h2>
+        <form id="ingredient-form">
+            <label><input type="checkbox" name="ingredient" value="Tomato"> Tomato</label><br>
+            <label><input type="checkbox" name="ingredient" value="Cheese"> Cheese</label><br>
+            <label><input type="checkbox" name="ingredient" value="Basil"> Basil</label><br>
+            <label><input type="checkbox" name="ingredient" value="Bread"> Bread</label><br>
+            <label><input type="checkbox" name="ingredient" value="Garlic"> Garlic</label><br>
+            <label><input type="checkbox" name="ingredient" value="Chicken"> Chicken</label><br>
+            <label><input type="checkbox" name="ingredient" value="Onion"> Onion</label><br>
+            <label><input type="checkbox" name="ingredient" value="Ginger"> Ginger</label><br>
+            <label><input type="checkbox" name="ingredient" value="Cumin"> Cumin</label><br>
+            <label><input type="checkbox" name="ingredient" value="Coriander"> Coriander</label><br>
+            <label><input type="checkbox" name="ingredient" value="Turmeric"> Turmeric</label><br>
+            <label><input type="checkbox" name="ingredient" value="Rice"> Rice</label><br>
+            <label><input type="checkbox" name="ingredient" value="Potato"> Potato</label><br>
+            <label><input type="checkbox" name="ingredient" value="Spinach"> Spinach</label><br>
+            <label><input type="checkbox" name="ingredient" value="Paneer"> Paneer</label><br>
+            <button type="submit">Find Recipes</button>
+        </form>
+    </div>
+    <div id="recipe-list">
+        <h2>Possible Recipes:</h2>
+        <div id="recipes"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
